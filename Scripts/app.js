@@ -1,14 +1,23 @@
 /* custom javascript */
 "use strict";
 // setup your IIFE (immidiately invoked function expression)
-(function(){
-	
+(function () {
+
 	console.log("App Started...");
 	
-	var firstParagraph;
+	//named function
+	funtion replaceFirstParagraph() {
+		console.log("inside replaceFirstParagraph function");
+		var firstParagraph;
+
+		firstParagraph = document.getElementById("firstParagraph")
+
+		firstParagraph.innerHTML = "My New Paragraph Data"
+
+
+	}
 	
-	firstParagraph = document.getElementById("firstParagraph")
-	
-	firstParagraph.innerHTML = "My New Paragraph Data"
-	
+replaceFirstParagraph();
+
+
 })();
