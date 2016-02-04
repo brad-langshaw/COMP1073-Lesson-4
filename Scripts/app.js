@@ -6,11 +6,11 @@
 	console.log("App Started...");
 	
 	//named function
-	funtion replaceFirstParagraph() {
+	function replaceFirstParagraph() {
 		console.log("inside replaceFirstParagraph function");
 		var firstParagraph;
 
-		firstParagraph = document.getElementById("firstParagraph")
+		firstParagraph = document.getElementById("firstParagraph");
 
 		firstParagraph.innerHTML = "My New Paragraph Data";
 
