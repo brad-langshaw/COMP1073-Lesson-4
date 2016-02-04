@@ -12,7 +12,7 @@
 
 		firstParagraph = document.getElementById("firstParagraph")
 
-		firstParagraph.innerHTML = "My New Paragraph Data"
+		firstParagraph.innerHTML = "My New Paragraph Data";
 
 
 	}
