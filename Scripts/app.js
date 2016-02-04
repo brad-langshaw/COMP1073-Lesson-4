@@ -7,7 +7,7 @@
 	
 	var firstParagraph;
 	
-	firstParagraph = document.getElementById("firstPargraph")
+	firstParagraph = document.getElementById("firstParasgraph")
 	
 	firstParagraph.innerHTML = "My New Paragraph Data"
 	
