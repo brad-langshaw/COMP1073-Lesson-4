@@ -5,5 +5,10 @@
 	
 	console.log("App Started...");
 	
+	var firstParagraph;
+	
+	firstParagraph = document.getElementById("firstPargraph")
+	
+	firstParagraph.innerHTML = "My New Paragraph Data"
 	
 })();
